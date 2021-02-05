@@ -1,0 +1,43 @@
+const ESTADO_INICIAL = {
+    roupa:{},
+    feed:[
+        { 
+            id:1, 
+            nome:"Hokage",
+            descricao:"Naruto Uzumaki, usuário original de Fuuton (elemento Vento), embora também possua todas as cinco naturezas de chacra graças ao chacra das nove Bijuus em seu corpo o qual usa em combinações com suas principais técnicas, Rasengan e Kagebushin, criando diversas versões mais poderosas como Rasen-Shuriken de Vento, além de ter acesso as Gudoudamas e Senjutsu do Rikudou Sennin. Filho do Yondaime Hokage, Minato, e aluno do Rokudaime, Kakashi, Naruto se desenvolve um grande ninja graças também a seu mestre e padrinho Jiraiya, do qual herda seus jutsus tanto as invocações (Bunta, Ken,Tatsu, etc.), como o Modo Sennin dos Sapos, o Senjutsu. Ele é o jinchuriki da Kurama (Kyuubi) da qual pode acessar seu chacra e assumir a forma completa em batalha. Naruto foi hostilizado em sua aldeia por ter se tornado o recipiente da Kyuubi, poder confiado por seu pai para que futuramente fosse usado para proteger a todos e seu grande sonho era se tonar o maior dos Hokages para que fosse reconhecido e respeitado por todos na aldeia, sonho que se torna realidade a ponto de ser aclamado no futuro como Herói de Konoha após derrotar Pain, o lider da Akatsuki que destruiu a Aldeia da Folha e convence-lo a reviver a todos que havia matado no ataque. Seus parceiros de equipe eram Sakura e Sasuke, tendo o ultimo desviado-se do caminho correto e se tornado um ninja foragido. Durante a Quarta Guerra Ninja, Naruto descumpre as ordens dos cinco Kages e avança na linha de frente ao lado de Killer B e se torna peça chave para a vitoria da Aliança Shinobi nesta guerra indo a todos os campos de batalha. Derrota Obito com a ajuda de Sasuke, em trégua, enfrenta Madara e posteriormente Kaguya, a vilã final. Com o fim da guerra Naruto acaba tendo que enfrentar seu próprio companheiro Sasuke que pretende seguir um caminho maligno, luta da qual saem ambos em péssimo estado e sem um dos braços, mas a determinação e os laços que Naruto nutri por Sasuke o qual considera um irmão, salvam o companheiro da escuridão que se arrepende de todos os seus erros e aceita a derrota. Naruto no futuro, casado com Hinata Hyuuga e pai de Bolt e Himawari, se torna o Sétimo Hokage, após a aposentadoria de Kakashi e compõe a atual formação dos Cinco Kages aclamado como o Hokage Laranja de Konoha."
+           
+        },
+        { 
+            id:2, 
+            nome:"Kazekage",
+            descricao:"Gaara Sabaku, usuário de Fuuton, Doton e Raiton elementos Vento, Terra e Raio, manipula a Suna Areia através da Kekkei Genkai Jiton elemento Magnético e possui uma das melhores defesas do mundo, a Defesa Absoluta, onde a areia o protege automaticamente de todos os ataques inimigos sem uso de selos para isso, um poder herdado de sua mãe. Foi também o jinchuriki do Shukaku, demônio da areia, podendo assumir sua forma completa ou parcial de seu Bijuu em batalha. Pode controlar toneladas de areia, criando braços e escudos gigantes.Sua técnica principal é o Caixão de Areia. Gaara era rejeitado e odiado por todos em sua aldeia, mesmo seu pai o Kazekage tentou mata-lo seis vezes. Gaara se tornou frio e assassino, tatuando em sua testa a palavra 愛 lit. Amor. Durante o exame chuunin, Gaara foi o primeiro genin a terminar a prova em tempo recorde e sem um arranhão, assustando até mesmo os Jounins. Após o ataque contra Konoha, do qual era considerado a arma secreta, ele sofreu uma mudança em sua personalidade graças a Naruto, com quem lutou até a exaustão, entendendo o valor dos laços e decidindo conquistar o respeito de todos em sua vila assim como Naruto estava fazendo, tornando-se alguns anos mais tarde o Kazekage. Acaba se sacrificando para proteger todos na aldeia no ataque da Akatsuki arquitetados por Deidara e Sasori, mas acaba sendo ressuscitado por Chiyo no fim. Além de ser o Kage mais jovem já eleito e o primeiro Jinchuriki a ser nomeado Kazekage, se tornou também o Comandante Geral do Exercito Aliado na 4° Guerra Ninja, que sob sua liderança enfrentam ao lado dos demais Kages, Edo Tensei, Madara, Obito e a Akatsuki sob posse do Juubi revivido. Gaara, no futuro pós-guerra, ainda compõe a mais recente formação dos cinco Kages, sendo o mais antigo líder ainda em poder dentre"
+        },
+        { 
+            id:3, 
+            nome:"Mizukage",
+            descricao:"Chojuro, usuário de Suiton (elemento Água) e portador de uma das lendárias Espadas da Névoa, a gigante Hiramekarei (Espada Gêmea). Ele é um grande espadachim e o último membro dos lendários Sete Espadachins da Névoa ainda vivo e o primeiro dos mesmos a se tornar Mizukage. Capaz de armazenar gigantescas quantidades de chacra Chojuro é capaz de elevar sua espada a proporções gigantescas podendo cortar um alvo ao meio à metros de distancia com apenas um manejar da lamina de chacra de sua espada. Também é capaz de alterar sua forma com o chacra, criando armas secundarias como, por exemplo,  um martelo de chacra gigante ao libera-la. Ele foi o guarda-costas da Godaime Mizukage durante a reunião dos cinco Kages antes da Quarta Guerra Ninja e sempre demonstrou uma grande gentileza e um forte desejo em proteger sua líder. Sua aparente insegurança na verdade encobre um grande poder e determinação. Durante a guerra Chojuro ficou encarregado de proteger os Senhores Feudais ao lado de Mei e acabou em confronto com Zetsu, que tentava sequestra-los o qual foi derrotado e imobilizado pelo mesmo com facilidade. Ele se torna Mizukage após a aposentadoria de Mei com o fim da guerra e compõe a atual formação dos cinco Kages."
+        },
+        { 
+            id:4, 
+            nome:"Raikakage",
+            descricao:"Darui, o primeiro Raikage a não possuir alcunha de A, a qual ainda pertence ao Yondaime Raikage. Usuário de Raiton e Suiton (elementos Raio e Água), Darui não só utilizava técnicas combinadas dos mesmos para atacar e imobilizar o inimigo como também podia usar seu Ranton (elemento Tempestade) combinando ambos para produzir sua Kekkei Genkai. Darui é um grande usuário de Kenjutsu Estilo Nuvem e era considerado o braço direito do Yondaime Raikage do qual foi guarda-costas na reunião dos Cinco Kages antes da Guerra. Durante a Quarta Guerra Ninja foi nomeado General da Primeira Divisão e responsabilizado pela proteção do litoral do pais do Raio graças a seu Kuroi Kaminari (Raio Negro), técnica herdada de seu mestre o Sandaime Raikage que confiou seu poder unicamente a Darui.  Missão que realiza com sucesso após lutar e derrotar os irmão Kinkaku e Ginkaku revividos pelo Edo Tensei de Kabuto além de um exercito de Zetsus. Tornou-se Raikage após a aposentadoria de Kira A com o fim da guerra e compõe a mais recente formação dos Cinco Kages."
+        },
+        { 
+            id:5, 
+            nome:"Tsuchikage",
+            descricao:"Kurotsuchi Ryotenbin, usuária de Doton, Suiton e Katon (elementos Terra, Água e Fogo) e um habilidosa usuária de Kenjutsu, ela pode combinar suas naturezas para criar a Kekkei Genkai Youton (elemento Lava) do qual utiliza em forma de Sekkaigyou (Cal Congelante) poder com propriedades corrosivas que se for combinado com Suiton também age como cimento de secagem rápida, processo que pode ser acelerado com o uso de Katon, que serve para captura, prendendo o inimigo em um caixão de concreto poderoso que dá abertura para que o oponente seja eliminado pela mesma. É a neta do Terceiro Tsuchikage, filha de Kitsuchi (General da Quarta Gerra) e ex- companheira de Deidara. Ela mostra-se atraída pelo perigo e sempre desposta a enfrentar uma boa batalha, possui a personalidade forte de seu avô e a força de seu pai. Durante a Quarta Guerra Kurotsuchi realizou grandes façanhas ao lado de seu pai, mostrando poderoso domínio do estilo terra de combate como arrancando milhares de Zetsus do sub-solo com um de seus jutsus. Também foi a guarda costas de seu avô na reunião dos 5 kages antes do inicio da guerra. Ao lutar contra Kabuto, a konoichi foi capaz de imobiliza-lo com apenas dois golpes, prisão da qual este foge e se vê obrigado a recuar. Ela se torna Tsuchikage após a aposentadoria de seu avô com o fim da guerra e compõe a cúpula dos cinco Kages atual."
+        }
+    ]
+};
+
+export default function roupas(state=ESTADO_INICIAL,action){
+    console.log(action)
+    if(action.type === "ADICIONAR_CARRINHO"){
+        return {  
+            ...state,
+            roupa: action.roupas            
+        }
+         
+    }
+    return state
+}
