@@ -1,0 +1,5 @@
+.img{
+    background-image: url(../src/components/imagem/naruto.jpg);
+    background-size: cover;
+    height: 1200px;
+  }

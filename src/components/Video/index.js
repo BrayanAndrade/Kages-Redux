@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 
 const Video = ({ activeLesson, activeModule }) => {
   return (
-    <div>
+    <div className="container">
       <strong> {activeModule.title}</strong>
       <br />
       <img src={activeLesson.img}/>

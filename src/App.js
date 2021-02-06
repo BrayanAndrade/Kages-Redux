@@ -1,6 +1,7 @@
 import React from 'react'
 import { Provider } from "react-redux";
 import store from './store'
+import './App.css';
 
 import Sidebar from './components/Sidebar'
 import Video from './components/Video'
@@ -11,10 +12,13 @@ const App = () => {
   return (
     <div>
       <Provider store={ store }>
-            <Video />
+          <div className="img">
+          <Video />
            <Sidebar />
            <Feed/>
            <Carshop />
+           </div>
+           
       </Provider>
     </div>
   )

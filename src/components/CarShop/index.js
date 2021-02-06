@@ -3,9 +3,9 @@ import {connect} from "react-redux"
 
 const CarShop=({roupa}) =>{
     return(
-        <div>
-            <h1>Informações</h1>
-            <strong>{roupa.descricao} </strong>
+        <div className="container">
+            <h1 className="text-white">Informações</h1>
+            <p className="text-white">{roupa.descricao} </p>
         </div>
     );
 };
